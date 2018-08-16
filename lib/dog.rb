@@ -49,5 +49,5 @@ class Dog
 
     DB[:conn].execute(sql, self.name, self.breed, self.id)
   end
-  
+end
 end
